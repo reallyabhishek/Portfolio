@@ -14,7 +14,6 @@
  }
  .header
  {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -221,4 +220,54 @@
 .footer .social-media-links a:hover
 {
   color: rgb(255, 132, 32);
+}
+.skills
+{
+  padding: 20px;
+  /* text-align: center; */
+  margin: 30px;
+
+}
+.skills h2
+{
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.skills-container
+{
+  /* display: flex; */
+
+  /* grid-template-rows: repeat(auto-fit, minmax(120px, 1fr)); */
+  gap: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+/* .skill-item:hover
+{
+  transform: scale(1.05);
+} */
+.skill-bar
+{
+  background-color: #555;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+  height: 8px;
+}
+.progress
+{
+  background-color: rgb(255, 132, 32);
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  transition: width 0.4s ease-in-out;
+}
+.skill-item
+{
+  max-width: 25%;
+  
 }
